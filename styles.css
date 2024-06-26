@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+}
+header {
+    background-color: #17202A;
+    color:white;
+    padding:1rem 0;
+    border-radius: 5px;
+}
+header nav ul {
+    list-style: none;
+    padding: 1rem ;
+    border-radius: 5px;
+}
+
+header nav ul li {
+    display: inline;
+    margin:  1rem;
+    border-radius: 5px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+section#home {
+    background-color: #17202A;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.pfp img{
+    max-width: 150px;
+    align-items: center;
+    border-radius: 0%;
+    margin-right: 0%;
+    margin-left: 1.5px;
+}
+section#about, section#skills, section#projects, section#contact {
+    background-color: #17202A;
+    color: white;
+    margin-bottom: 0rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 2rem;
+}
+
+#skills ul li {
+    display: inline-block;
+    background-color: white;
+    margin: 0rem;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color:#17202A;
+    color: white;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
